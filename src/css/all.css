@@ -3,11 +3,9 @@
 
 html {
   font-size: 62.5%;
-  color: var(--cor-branca);
   font-weight: 300;
   scroll-behavior: smooth;
   color: var(--color-6);
- 
 }
 
 body{
@@ -20,3 +18,55 @@ section h2{
   font-size: var(--fonte-extra-grande);
   margin-bottom: 20px;
 }
+
+.container{
+  display: flex;
+  align-items: center;
+
+}
+.redes-sociais i{
+  
+  color: var(--color-6);
+  
+}
+
+.social-media a, .mail {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  background-color: var(--color-bg);
+  color: var(--color-6);
+
+}
+
+.social-media a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  text-align: center;
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  background-color: var(--color-bg);
+  color: var(--color-6);
+}
+
+.social-media a:hover {
+  color: var(--color-1);
+}
+
+.social-media a i {
+  line-height: 40px;
+}
+
+.outer-shadow {
+  box-shadow:  3px 3px #222327, -3px -3px 3px #454545;
+}
+
+
