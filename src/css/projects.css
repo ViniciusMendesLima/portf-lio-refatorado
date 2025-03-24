@@ -1,13 +1,14 @@
 .projects{
     display: flex;
     flex-direction: column;
-    height: 35rem;
+    height: 40rem;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
     margin-top: 10rem;
     background-color: var(--color-6);
+    z-index: -1;
 
 }
 

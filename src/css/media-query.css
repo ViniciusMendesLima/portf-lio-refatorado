@@ -1,0 +1,41 @@
+@media(max-width: 1280px) {
+    .header {
+        padding: var(--mobile-padding);
+    }
+
+    .header .container nav{
+        top: 40px;
+    }
+}
+
+@media(max-width:790px){
+    .projects{
+        padding: var(--mobile-padding);
+        height: 65rem;
+        justify-content:flex-start;
+        padding-top: 3rem;
+    }
+    .projects .project a {
+        flex-direction: column;
+    }
+    .projects .buttons {
+        bottom: 100px;
+        width: 40%;
+        font-size: 5em;
+    }
+}
+@media(max-width:610px){
+    .prasentation .fotos .centralize-fotos img:nth-child(2){
+        display: none;
+    }
+
+    .prasentation .fotos .centralize-fotos{
+        background: none;
+    }
+
+    .prasentation .fotos .centralize-fotos img{
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+}
