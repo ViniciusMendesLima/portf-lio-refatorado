@@ -24,6 +24,10 @@ section h2{
   align-items: center;
 }
 
+.padding-top{
+  padding-top: 10rem;
+}
+
 .social-media a, .mail {
   display: inline-block;
   width: 40px;
