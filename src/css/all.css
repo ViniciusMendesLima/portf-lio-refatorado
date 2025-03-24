@@ -49,7 +49,7 @@ section h2{
   line-height: 40px;
 }
 
-.job-name .mail{
+.mail{
   display: flex;
   border-radius: 10px;
   width: 32rem;
@@ -60,7 +60,7 @@ section h2{
   gap: 10px;
 }
 
-.job-name .mail .e-mail-main{
+.container .mail .e-mail-main{
   font-size: 1.8rem;
 }
 
