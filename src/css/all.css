@@ -22,18 +22,11 @@ section h2{
 .container{
   display: flex;
   align-items: center;
-
-}
-.redes-sociais i{
-  
-  color: var(--color-6);
-  
 }
 
 .social-media a, .mail {
   display: inline-block;
   width: 40px;
-  height: 40px;
   font-size: 1.8rem;
   text-align: center;
   margin: 0 4px;
@@ -42,19 +35,6 @@ section h2{
   background-color: var(--color-bg);
   color: var(--color-6);
 
-}
-
-.social-media a{
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  font-size: 1.8rem;
-  text-align: center;
-  margin: 0 4px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-  background-color: var(--color-bg);
-  color: var(--color-6);
 }
 
 .social-media a:hover {
@@ -65,8 +45,27 @@ section h2{
   line-height: 40px;
 }
 
+.job-name .mail{
+  display: flex;
+  border-radius: 10px;
+  width: 32rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 0;
+  gap: 10px;
+}
+
+.job-name .mail .e-mail-main{
+  font-size: 1.8rem;
+}
+
 .outer-shadow {
   box-shadow:  3px 3px #222327, -3px -3px 3px #454545;
+}
+
+.inner-shadow {
+  box-shadow:  inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
 }
 
 
