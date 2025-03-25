@@ -12,17 +12,39 @@
     .projects{
         padding: var(--mobile-padding);
         height: 65rem;
+        max-width: 100vw;
         justify-content:flex-start;
-        padding-top: 3rem;
-    }
-    .projects .project a {
         flex-direction: column;
     }
+
+    .container-projects{
+        display: flex;
+        width: 80vw;
+        height: 80%;
+        max-height: 45rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects h2 {
+        padding-top: 3rem;
+        padding-bottom: 0;
+    }
+
+    .projects .project a {
+        flex-direction: column;
+
+    }
+
+    .projects .project a .project-information{
+        max-width: 90vw;
+    }
     .projects .buttons {
-        bottom: 100px;
-        width: 40%;
+        width: 40rem;
+        position: relative;
         font-size: 5em;
     }
+
 }
 @media(max-width:610px){
     .prasentation .fotos .centralize-fotos img:nth-child(2){
