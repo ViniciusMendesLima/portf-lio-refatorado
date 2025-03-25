@@ -4,6 +4,7 @@
     }
 
     .header .container nav{
+        padding-right: 10px;
         top: 40px;
     }
 }
@@ -40,7 +41,7 @@
         max-width: 90vw;
     }
     .projects .buttons {
-        width: 40rem;
+        /* width: 40rem; */
         position: relative;
         font-size: 5em;
     }
