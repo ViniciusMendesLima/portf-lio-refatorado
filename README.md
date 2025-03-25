@@ -38,7 +38,7 @@ Este é o código-fonte do meu portfólio como Desenvolvedor Web Front-End Júni
 
 1- Baixe o repositório ou clone com o comando:
 
-[git clone](https://github.com/ViniciusMendesLima/portfolio.git)
+[git clone](https://github.com/ViniciusMendesLima/portf-lio-refatorado.git)
 
 2- Abra o arquivo __index.html__ no navegador.
 
